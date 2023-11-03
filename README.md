@@ -8,6 +8,8 @@ and else all other users as Client
 
 
 Populate the following items in the .env file
+
+
 NEXT_PUBLIC_JWT_EXPIRATION= 
 NEXT_PUBLIC_JWT_SECRET= 
 NEXT_PUBLIC_JWT_REFRESH_TOKEN_SECRET= 
