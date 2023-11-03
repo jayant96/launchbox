@@ -1,5 +1,31 @@
 1. Yarn install
 2. Yarn dev
+3. Add a .env file in the root
 
-If user sign in with launchbox.ai they will be treated as Employee
+If users sign in with launchbox.ai they will be treated as Employee
 and else all other users as Client
+
+
+
+Populate following items in the .env file
+NEXT_PUBLIC_JWT_EXPIRATION= 
+NEXT_PUBLIC_JWT_SECRET= 
+NEXT_PUBLIC_JWT_REFRESH_TOKEN_SECRET= 
+
+
+
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_CLIENT_EMAIL=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_PRIVATE_KEY=
+NEXT_PUBLIC_FIREBASE_STORAGE_ID=
+NEXT_PUBLIC_FIREBASE_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=1:
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
+
+
+# Airtable
+AIRTABLE_PERSONAL_ACCESS_TOKEN=
+AIRTABLE_BASE_ID=
