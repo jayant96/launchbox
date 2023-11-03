@@ -1,0 +1,36 @@
+{
+    "Employee": [
+        {
+            "name": "question1 Employee",
+            "label": "Question 1 Employee",
+            "type": "text"
+        },
+        {
+            "name": "question2 ",
+            "label": "Question 2",
+            "type": "dropdown",
+            "options": [
+                "Option 1",
+                "Option 2",
+                "Option 3"
+            ]
+        }
+    ],
+    "Client": [
+        {
+            "name": "question1 Client",
+            "label": "Question 1 Client",
+            "type": "text"
+        },
+        {
+            "name": "question2",
+            "label": "Question 2",
+            "type": "dropdown",
+            "options": [
+                "Option 1",
+                "Option 2",
+                "Option 3"
+            ]
+        }
+    ]
+}
